@@ -1,0 +1,49 @@
+@import '../../styles/variables.scss';
+
+.productItem {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    width: calc((100% / 4) - 20px);
+    border: 1px solid $lightBlack;
+    border-radius: 15px;
+
+
+    .btnBlock {
+        display: flex;
+        justify-content: space-between;
+
+        .btn {
+            height: 25px;
+            width: 30px;
+        }
+    }
+
+    a {
+        min-height: 150px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+
+        h3 {
+            font-size: $fs18;
+            color: $lightBlack;
+            white-space: nowrap;
+            overflow: hidden;
+            // word-wrap: break-word;
+            text-overflow: ellipsis;
+        }
+
+        img {
+            margin: 0 auto;
+            width: 40%;
+            height: 40%;
+        }
+
+    }
+
+    
+} 
+
