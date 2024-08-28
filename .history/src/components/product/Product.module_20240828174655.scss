@@ -8,11 +8,10 @@
     width: calc((100% / 4) - 20px);
     border: 1px solid $lightBlack;
     border-radius: 15px;
-    min-height: 300px;
+    min-height: 400px;
 
 
     .btnBlock {
-        margin-top: auto;
         display: flex;
         justify-content: space-between;
 
